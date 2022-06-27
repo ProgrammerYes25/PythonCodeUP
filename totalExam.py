@@ -15,10 +15,10 @@
 
 def strin(ch):
     s = 'q'
+    print(ch)
     while ch != s:
         ch = input()
         print(ch)
 
 ch = input()
-print(ch)
 strin(ch)
